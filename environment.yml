@@ -1,0 +1,8 @@
+name: primer-designer
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - PyQt6  # GUI フレームワーク（app.py の GUI モード用）

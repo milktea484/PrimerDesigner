@@ -1,0 +1,19 @@
+{
+  "vector_length": 6732,
+  "insert_length": 2691,
+  "enzyme_site": "AGATCT",
+  "homology_arm_5prime": "GATCTTTTTCCCTCT",
+  "homology_arm_3prime": "CACAAATACCACTGA",
+  "forward_specific": "TCGCGCGTTTCGGTGATGAC",
+  "forward_specific_length": 20,
+  "forward_specific_tm": 64,
+  "forward_specific_gc": 60.0,
+  "forward_primer": "GATCTTTTTCCCTCTTCGCGCGTTTCGGTGATGAC",
+  "forward_primer_length": 35,
+  "reverse_specific": "GTATCACGAGGCCCTTTCGTC",
+  "reverse_specific_length": 21,
+  "reverse_specific_tm": 66,
+  "reverse_specific_gc": 57.14285714285714,
+  "reverse_primer": "TCAGTGGTATTTGTGGACGAAAGGGCCTCGTGATAC",
+  "reverse_primer_length": 36
+}
