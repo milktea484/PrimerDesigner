@@ -14,10 +14,11 @@
 
 ### 前提条件
 
-- **conda** がインストールされていること
-  - [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) または [Anaconda](https://www.anaconda.com/) をインストールしてください
+- **conda** または **Python 3.11 以上** がインストールされていること
+   - conda を使う場合: [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) または [Anaconda](https://www.anaconda.com/)
+   - Windows + venv を使う場合: Python 公式インストーラー
 
-### セットアップ手順
+### セットアップ手順 (conda を使用する場合)
 
 1. **conda環境を作成**
 
@@ -38,11 +39,47 @@ conda activate primer-designer
 python --version  # Python 3.11以上が表示されることを確認
 ```
 
+### セットアップ手順 (Windowsで venv を使用する場合)
+
+1. **仮想環境を作成**
+
+```cmd
+cd \path\to\PrimerDesigner
+python -m venv venv
+```
+
+2. **環境を有効化**
+
+```cmd
+venv\Scripts\activate
+```
+
+3. **依存パッケージのインストール**
+
+```cmd
+pip install PyQt6
+```
+
+4. **環境の確認**
+
+```cmd
+python --version
+```
+
 ### 環境の削除（不要になった場合）
+
+**conda を使用した場合:**
 
 ```bash
 conda deactivate
 conda env remove --name primer-designer
+```
+
+**Windows + venv を使用した場合:**
+
+```cmd
+deactivate
+rmdir /s /q venv
 ```
 
 ---
